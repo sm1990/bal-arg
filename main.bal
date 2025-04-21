@@ -7,7 +7,7 @@ public function main(string... args) {
         if inputValue is int {
             panic error("Program terminated because an integer was provided: " + inputValue.toString());
         } else {
-            io:println("The provided input is not an integer.x");
+            io:println("The provided input is not an integer.");
         }
     } else {
         io:println("No arguments provided.");
